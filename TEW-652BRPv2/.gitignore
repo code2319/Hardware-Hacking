@@ -1,0 +1,14 @@
+/_TEW652BRPR1_FW200B0045.bin.extracted/
+/notes.md
+/reports/EMBA/*.txt
+/reports/EMBA/firmware
+/reports/EMBA/*.log
+/reports/EMBA/etc
+/reports/EMBA/csv_logs
+/reports/EMBA/f20_vul_aggregator
+/reports/EMBA/p61_unblob_eval
+/reports/EMBA/s110_yara_check
+/reports/EMBA/s20_shell_check
+/reports/EMBA/s25_kernel_check
+/reports/EMBA/s95_interesting_binaries_check
+/reports/EMBA/s99_grepit

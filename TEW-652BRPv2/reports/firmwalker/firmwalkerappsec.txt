@@ -1,0 +1,523 @@
+***Firmware Directory***
+_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root
+***Search for password files***
+##################################### passwd
+
+##################################### shadow
+
+##################################### *.psk
+
+***Search for Unix-MD5 hashes***
+
+
+***Search for SSL related files***
+##################################### *.crt
+
+##################################### *.pem
+
+##################################### *.cer
+
+##################################### *.p7b
+
+##################################### *.p12
+
+##################################### *.key
+
+
+***Search for SSH related files***
+##################################### authorized_keys
+
+##################################### *authorized_keys*
+
+##################################### host_key
+
+##################################### *host_key*
+
+##################################### id_rsa
+
+##################################### *id_rsa*
+
+##################################### id_dsa
+
+##################################### *id_dsa*
+
+##################################### *.pub
+
+
+***Search for files***
+##################################### *.conf
+
+##################################### *.cfg
+
+##################################### *.ini
+
+
+***Search for database related files***
+##################################### *.db
+
+##################################### *.sqlite
+
+##################################### *.sqlite3
+
+##################################### *.sqlitedb
+
+##################################### *.store
+
+##################################### *.sql
+
+
+***Search for shell scripts***
+##################################### shell scripts
+
+***Search for other .bin files***
+##################################### bin files
+
+***Search for patterns in files***
+-------------------- upgrade --------------------
+-------------------- upgrade pattern with line numbers----
+shfs-root/www/firmware.asp:143:upgrade
+shfs-root/www/firmware.asp:144:upgrade
+shfs-root/www/firmware.asp:166:upgrade
+shfs-root/www/public_msg.js:36:upgrade
+shfs-root/www/lingual_EN.js:856:upgrade
+shfs-root/www/lingual_EN.js:867:Upgrade
+shfs-root/www/lingual_EN.js:1018:upgrade
+shfs-root/www/lingual_EN.js:1033:upgrade
+shfs-root/www/lingual_EN.js:1206:Upgrade
+shfs-root/www/lingual_EN.js:1207:Upgrade
+
+-------------------- admin --------------------
+-------------------- admin pattern with line numbers----
+shfs-root/www/public_msg.js:9:Admin
+shfs-root/www/lingual_EN.js:24:Admin
+shfs-root/www/lingual_EN.js:277:admin
+shfs-root/www/lingual_EN.js:284:admin
+shfs-root/www/lingual_EN.js:359:admin
+shfs-root/www/lingual_EN.js:770:Admin
+shfs-root/www/lingual_EN.js:1032:Admin
+shfs-root/www/lingual_EN.js:1033:Admin
+shfs-root/www/lingual_EN.js:1034:Admin
+shfs-root/etc/shadow:2:Admin
+shfs-root/etc/passwd:2:Admin
+shfs-root/etc/nvram.default:2:admin
+shfs-root/etc/nvram.default:3:admin
+shfs-root/etc/services:176:admin
+shfs-root/etc/services:177:admin
+
+-------------------- root --------------------
+-------------------- root pattern with line numbers----
+shfs-root/etc/shadow:1:root
+shfs-root/etc/passwd:1:root
+shfs-root/etc/passwd:2:root
+shfs-root/etc/group:1:root
+shfs-root/wps_xml/simplecfg.xml:2:root
+shfs-root/wps_xml/simplecfg.xml:30:root
+shfs-root/fs.out:14:root
+
+-------------------- password --------------------
+-------------------- password pattern with line numbers----
+shfs-root/www/wan_bigpond.asp:83:password
+shfs-root/www/wan_bigpond.asp:184:password
+shfs-root/www/wan_bigpond.asp:188:password
+shfs-root/www/wireless_auth.asp:549:password
+shfs-root/www/wireless_auth.asp:553:password
+shfs-root/www/wireless_auth.asp:568:password
+shfs-root/www/wireless_auth.asp:585:password
+shfs-root/www/wan_poe.asp:122:password
+shfs-root/www/wan_poe.asp:240:password
+shfs-root/www/wan_poe.asp:244:password
+shfs-root/www/wan_pptp.asp:155:password
+shfs-root/www/wan_pptp.asp:287:password
+shfs-root/www/wan_pptp.asp:291:password
+shfs-root/www/public_msg.js:2:password
+shfs-root/www/public_msg.js:9:password
+shfs-root/www/public_msg.js:10:password
+shfs-root/www/lan.asp:495:password
+shfs-root/www/wan_dhcp.asp:143:password
+shfs-root/www/lingual_EN.js:24:Password
+shfs-root/www/lingual_EN.js:66:Password
+shfs-root/www/lingual_EN.js:262:Password
+shfs-root/www/lingual_EN.js:276:Password
+shfs-root/www/lingual_EN.js:305:Password
+shfs-root/www/lingual_EN.js:509:password
+shfs-root/www/lingual_EN.js:553:password
+shfs-root/www/lingual_EN.js:553:Password
+shfs-root/www/lingual_EN.js:555:Password
+shfs-root/www/lingual_EN.js:555:password
+shfs-root/www/lingual_EN.js:655:Password
+shfs-root/www/lingual_EN.js:655:password
+shfs-root/www/lingual_EN.js:656:Password
+shfs-root/www/lingual_EN.js:656:password
+shfs-root/www/lingual_EN.js:671:Password
+shfs-root/www/lingual_EN.js:671:password
+shfs-root/www/lingual_EN.js:672:password
+shfs-root/www/lingual_EN.js:677:Password
+shfs-root/www/lingual_EN.js:677:password
+shfs-root/www/lingual_EN.js:678:Password
+shfs-root/www/lingual_EN.js:678:password
+shfs-root/www/lingual_EN.js:686:Password
+shfs-root/www/lingual_EN.js:686:password
+shfs-root/www/lingual_EN.js:687:Password
+shfs-root/www/lingual_EN.js:687:password
+shfs-root/www/lingual_EN.js:695:password
+shfs-root/www/lingual_EN.js:696:password
+shfs-root/www/lingual_EN.js:700:Password
+shfs-root/www/lingual_EN.js:700:password
+shfs-root/www/lingual_EN.js:701:password
+shfs-root/www/lingual_EN.js:702:password
+shfs-root/www/lingual_EN.js:704:password
+shfs-root/www/lingual_EN.js:705:password
+shfs-root/www/lingual_EN.js:718:Password
+shfs-root/www/lingual_EN.js:770:password
+shfs-root/www/lingual_EN.js:780:password
+shfs-root/www/lingual_EN.js:845:password
+shfs-root/www/lingual_EN.js:871:password
+shfs-root/www/lingual_EN.js:936:password
+shfs-root/www/lingual_EN.js:996:password
+shfs-root/www/lingual_EN.js:1010:password
+shfs-root/www/lingual_EN.js:1043:Password
+shfs-root/www/lingual_EN.js:1074:Password
+shfs-root/www/lingual_EN.js:1088:Password
+shfs-root/www/lingual_EN.js:1106:Password
+shfs-root/www/lingual_EN.js:1107:Password
+shfs-root/www/lingual_EN.js:1108:Password
+shfs-root/www/lingual_EN.js:1139:Password
+shfs-root/www/lingual_EN.js:1150:Password
+shfs-root/www/lingual_EN.js:1213:Password
+shfs-root/www/lingual_EN.js:1245:password
+shfs-root/www/ddns.asp:80:password
+shfs-root/www/ddns.asp:187:password
+shfs-root/www/log_setting.asp:337:password
+shfs-root/www/time.asp:278:password
+shfs-root/www/wizard.asp:708:password
+shfs-root/www/wizard.asp:712:password
+shfs-root/www/wizard.asp:902:password
+shfs-root/www/wizard.asp:908:password
+shfs-root/www/wizard.asp:924:password
+shfs-root/www/wizard.asp:930:password
+shfs-root/www/wizard.asp:969:password
+shfs-root/www/wizard.asp:973:password
+shfs-root/www/wizard.asp:1014:password
+shfs-root/www/wizard.asp:1018:password
+shfs-root/www/wizard.asp:1033:password
+shfs-root/www/wizard.asp:1037:password
+shfs-root/www/password.asp:4:Password
+shfs-root/www/password.asp:71:password
+shfs-root/www/password.asp:148:password
+shfs-root/www/password.asp:158:password
+shfs-root/www/password.asp:162:password
+shfs-root/www/password.asp:170:password
+shfs-root/www/password.asp:174:password
+shfs-root/www/password.asp:178:password
+shfs-root/www/login.asp:99:password
+shfs-root/www/wan_l2tp.asp:139:password
+shfs-root/www/wan_l2tp.asp:271:password
+shfs-root/www/wan_l2tp.asp:275:password
+shfs-root/etc/zebra.conf.sample:8:password
+shfs-root/etc/zebra.conf.sample:9:password
+shfs-root/etc/ripd.conf.sample:8:password
+
+-------------------- passwd --------------------
+-------------------- passwd pattern with line numbers----
+shfs-root/etc/services:179:passwd
+
+-------------------- pwd --------------------
+-------------------- pwd pattern with line numbers----
+shfs-root/www/wizard.asp:206:pwd
+shfs-root/www/wizard.asp:207:pwd
+shfs-root/www/login.asp:43:pwd
+shfs-root/www/login.asp:50:pwd
+
+-------------------- dropbear --------------------
+-------------------- dropbear pattern with line numbers----
+
+-------------------- ssl --------------------
+-------------------- ssl pattern with line numbers----
+
+-------------------- private key --------------------
+-------------------- private key pattern with line numbers----
+
+-------------------- telnet --------------------
+-------------------- telnet pattern with line numbers----
+shfs-root/www/lingual_EN.js:945:Telnet
+shfs-root/www/lingual_EN.js:946:Telnet
+shfs-root/www/lingual_EN.js:947:Telnet
+shfs-root/etc/nvram.default:124:Telnet
+shfs-root/etc/nvram.default:148:Telnet
+shfs-root/etc/services:31:telnet
+shfs-root/etc/services:63:Telnet
+
+-------------------- secret --------------------
+-------------------- secret pattern with line numbers----
+shfs-root/www/public.js:34:secret
+shfs-root/www/public.js:37:secret
+shfs-root/www/public.js:632:secret
+shfs-root/www/public_msg.js:142:Secret
+shfs-root/www/lingual_EN.js:318:Secret
+shfs-root/www/lingual_EN.js:604:Secret
+shfs-root/www/lingual_EN.js:605:Secret
+shfs-root/www/lingual_EN.js:621:Secret
+shfs-root/www/lingual_EN.js:1146:Secret
+
+-------------------- pgp --------------------
+-------------------- pgp pattern with line numbers----
+
+-------------------- gpg --------------------
+-------------------- gpg pattern with line numbers----
+
+-------------------- token --------------------
+-------------------- token pattern with line numbers----
+
+-------------------- api key --------------------
+-------------------- api key pattern with line numbers----
+
+-------------------- oauth --------------------
+-------------------- oauth pattern with line numbers----
+
+-------------------- AKIA --------------------
+-------------------- AKIA pattern with line numbers----
+
+
+***Search for web servers***
+##################################### search for web servers
+##################################### apache
+
+##################################### lighttpd
+
+##################################### alphapd
+
+##################################### httpd
+
+##################################### GoAhead
+
+##################################### nginx
+
+***Search for command injection functions***
+##################################### Command injection functions
+##################################### system
+##################################### system function with line numbers
+shfs-root/etc/nvram.default:347:system
+shfs-root/share/man/man8/pptp.8:105:system
+shfs-root/share/man/man8/pptp.8:147:system
+shfs-root/share/man/man8/pptp.8:80:system
+shfs-root/usr/share/udhcpc/default.script:3:system
+shfs-root/www/lingual_EN.js:1058:System
+shfs-root/www/lingual_EN.js:1180:System
+shfs-root/www/lingual_EN.js:1181:System
+shfs-root/www/lingual_EN.js:1182:System
+shfs-root/www/lingual_EN.js:1183:System
+shfs-root/www/lingual_EN.js:1184:System
+shfs-root/www/lingual_EN.js:498:system
+shfs-root/www/lingual_EN.js:499:system
+shfs-root/www/lingual_EN.js:540:system
+shfs-root/www/lingual_EN.js:567:System
+shfs-root/www/lingual_EN.js:568:system
+shfs-root/www/lingual_EN.js:571:system
+shfs-root/www/lingual_EN.js:592:System
+shfs-root/www/lingual_EN.js:599:system
+shfs-root/www/lingual_EN.js:615:system
+shfs-root/www/lingual_EN.js:704:system
+shfs-root/www/lingual_EN.js:705:system
+shfs-root/www/lingual_EN.js:713:system
+shfs-root/www/lingual_EN.js:714:system
+shfs-root/www/lingual_EN.js:841:System
+shfs-root/www/lingual_EN.js:842:System
+shfs-root/www/lingual_EN.js:843:System
+shfs-root/www/lingual_EN.js:844:system
+shfs-root/www/lingual_EN.js:856:system
+shfs-root/www/lingual_EN.js:857:system
+shfs-root/www/lingual_EN.js:888:System
+shfs-root/www/lingual_EN.js:909:system
+shfs-root/www/log_setting.asp:116:system
+shfs-root/www/public.js:1060:system
+shfs-root/www/wizard.asp:1119:system
+
+##################################### exec
+##################################### exec function with line numbers
+shfs-root/etc/services:122:exec
+shfs-root/usr/share/udhcpc/default.script:7:exec
+
+##################################### execl
+##################################### execl function with line numbers
+
+##################################### popen
+##################################### popen function with line numbers
+
+##################################### execve
+##################################### execve function with line numbers
+
+##################################### ShellExecute
+##################################### ShellExecute function with line numbers
+
+##################################### os.execute
+##################################### os.execute function with line numbers
+
+##################################### os.system
+##################################### os.system function with line numbers
+
+##################################### subprocess.call
+##################################### subprocess.call function with line numbers
+
+##################################### eval
+##################################### eval function with line numbers
+shfs-root/www/wizard.asp:193:eval
+shfs-root/www/wizard.asp:198:eval
+
+##################################### cmd
+##################################### cmd function with line numbers
+shfs-root/etc/services:126:cmd
+
+***Search for banned C functions***
+##################################### Banned C functions
+##################################### strcpy
+
+##################################### strcat
+
+##################################### strncat
+
+##################################### sprintf
+
+##################################### vsprintf
+
+##################################### strlen
+
+##################################### memcpy
+
+##################################### memcmp
+
+##################################### memset
+
+##################################### fopen
+
+##################################### gets
+shfs-root/etc/syslog.conf:44:gets
+
+##################################### getwd
+
+##################################### scanf
+
+
+***Search for important binaries***
+##################################### important binaries
+##################################### ssh
+
+##################################### sshd
+
+##################################### scp
+
+##################################### sftp
+
+##################################### tftp
+
+##################################### dropbear
+
+##################################### busybox
+
+##################################### telnet
+
+##################################### telnetd
+
+##################################### openssl
+
+##################################### ftpget
+
+##################################### ftpput
+
+
+***Search for webfiles***
+##################################### webfiles
+##################################### *.asp
+shfs-root/www/wireless_advanced.asp
+shfs-root/www/ping_test.asp
+shfs-root/www/wan_bigpond.asp
+shfs-root/www/back_wizard_reboot.asp
+shfs-root/www/login_fail.asp
+shfs-root/www/wps_back.asp
+shfs-root/www/domain_filter.asp
+shfs-root/www/firmware.asp
+shfs-root/www/wps_back_fail.asp
+shfs-root/www/wireless_auth.asp
+shfs-root/www/status.asp
+shfs-root/www/settings.asp
+shfs-root/www/help_tools.asp
+shfs-root/www/wireless_basic.asp
+shfs-root/www/help_access.asp
+shfs-root/www/help_routing.asp
+shfs-root/www/firewall_setting.asp
+shfs-root/www/wla_conn.asp
+shfs-root/www/wan_poe.asp
+shfs-root/www/glossary.asp
+shfs-root/www/glossary_content.asp
+shfs-root/www/count_down.asp
+shfs-root/www/special_ap.asp
+shfs-root/www/do_wps_save.asp
+shfs-root/www/back.asp
+shfs-root/www/restart.asp
+shfs-root/www/wan_pptp.asp
+shfs-root/www/help_main.asp
+shfs-root/www/help_wlan.asp
+shfs-root/www/lan.asp
+shfs-root/www/wan_dhcp.asp
+shfs-root/www/help_manage.asp
+shfs-root/www/wlan_wps.asp
+shfs-root/www/statistic.asp
+shfs-root/www/SystemTime.asp
+shfs-root/www/wps_back_result.asp
+shfs-root/www/wps_apply_ok.asp
+shfs-root/www/user_page.asp
+shfs-root/www/help_wizard.asp
+shfs-root/www/log.asp
+shfs-root/www/ddns.asp
+shfs-root/www/log_setting.asp
+shfs-root/www/time.asp
+shfs-root/www/protocol_filter.asp
+shfs-root/www/filters.asp
+shfs-root/www/ping_back.asp
+shfs-root/www/wizard.asp
+shfs-root/www/password.asp
+shfs-root/www/remote_management.asp
+shfs-root/www/close.asp
+shfs-root/www/wan.asp
+shfs-root/www/virtual_server.asp
+shfs-root/www/dynamic_routing.asp
+shfs-root/www/dmz.asp
+shfs-root/www/login.asp
+shfs-root/www/routing_table.asp
+shfs-root/www/help_status.asp
+shfs-root/www/static_routing.asp
+shfs-root/www/wan_l2tp.asp
+shfs-root/www/email_log.asp
+
+##################################### *.html
+
+##################################### *.xml
+shfs-root/www/index.xml
+shfs-root/wps_xml/simplecfg.xml
+shfs-root/wps_xml/simplecfgservice.xml
+
+##################################### *.php
+
+##################################### *.js
+shfs-root/www/public.js
+shfs-root/www/public_msg.js
+shfs-root/www/lingual_EN.js
+shfs-root/www/md5.js
+
+##################################### *.json
+
+##################################### *.cgi
+
+
+***Search for ip addresses***
+##################################### ip addresses
+
+***Search for urls***
+##################################### urls
+http://192.168.10.1
+http://192.168.10.1:59889<
+http://pajhome.org.uk
+http://' prefix (for example, http:
+http://www.TRENDnet.com
+
+***Search for emails***
+##################################### emails

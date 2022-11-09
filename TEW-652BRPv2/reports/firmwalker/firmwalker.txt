@@ -1,0 +1,758 @@
+***Firmware Directory***
+_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root
+***Search for password files***
+##################################### passwd
+shfs-root/etc/passwd
+
+##################################### shadow
+shfs-root/etc/shadow
+
+##################################### *.psk
+
+***Search for Unix-MD5 hashes***
+
+
+***Search for SSL related files***
+##################################### *.crt
+
+##################################### *.pem
+
+##################################### *.cer
+
+##################################### *.p7b
+
+##################################### *.p12
+
+##################################### *.key
+
+
+***Search for SSH related files***
+##################################### authorized_keys
+
+##################################### *authorized_keys*
+
+##################################### host_key
+
+##################################### *host_key*
+
+##################################### id_rsa
+
+##################################### *id_rsa*
+
+##################################### id_dsa
+
+##################################### *id_dsa*
+
+##################################### *.pub
+
+
+***Search for files***
+##################################### *.conf
+shfs-root/etc/host.conf
+shfs-root/etc/resolv.conf
+shfs-root/etc/syslog.conf
+
+##################################### *.cfg
+
+##################################### *.ini
+
+
+***Search for database related files***
+##################################### *.db
+
+##################################### *.sqlite
+
+##################################### *.sqlite3
+
+##################################### *.sqlitedb
+
+##################################### *.store
+
+##################################### *.sql
+
+
+***Search for shell scripts***
+##################################### shell scripts
+
+***Search for other .bin files***
+##################################### bin files
+
+***Search for patterns in files***
+-------------------- upgrade --------------------
+shfs-root/www/firmware.asp
+shfs-root/www/public_msg.js
+shfs-root/www/lingual_EN.js
+shfs-root/bin/nvram
+shfs-root/sbin/timer
+shfs-root/sbin/httpd
+shfs-root/sbin/rc
+-------------------- upgrade pattern with line numbers----
+
+-------------------- admin --------------------
+shfs-root/www/public_msg.js
+shfs-root/www/lingual_EN.js
+shfs-root/etc/shadow
+shfs-root/etc/passwd
+shfs-root/etc/nvram.default
+shfs-root/etc/services
+shfs-root/lib/iptables/libipt_REJECT.so
+shfs-root/sbin/httpd
+-------------------- admin pattern with line numbers----
+
+-------------------- root --------------------
+shfs-root/bin/busybox
+shfs-root/etc/shadow
+shfs-root/etc/passwd
+shfs-root/etc/group
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/wps_xml/simplecfg.xml
+shfs-root/sbin/pppd
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/wscd
+shfs-root/sbin/iptables
+shfs-root/sbin/rc
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/dnsmasq
+shfs-root/fs.out
+-------------------- root pattern with line numbers----
+
+-------------------- password --------------------
+shfs-root/www/wan_bigpond.asp
+shfs-root/www/wireless_auth.asp
+shfs-root/www/wan_poe.asp
+shfs-root/www/wan_pptp.asp
+shfs-root/www/public_msg.js
+shfs-root/www/lan.asp
+shfs-root/www/wan_dhcp.asp
+shfs-root/www/lingual_EN.js
+shfs-root/www/ddns.asp
+shfs-root/www/log_setting.asp
+shfs-root/www/time.asp
+shfs-root/www/wizard.asp
+shfs-root/www/password.asp
+shfs-root/www/login.asp
+shfs-root/www/wan_l2tp.asp
+shfs-root/etc/zebra.conf.sample
+shfs-root/etc/ripd.conf.sample
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/httpd
+shfs-root/sbin/bpalogin
+shfs-root/sbin/zebra
+shfs-root/sbin/noip2
+shfs-root/sbin/msmtp
+shfs-root/sbin/ripd
+-------------------- password pattern with line numbers----
+
+-------------------- passwd --------------------
+shfs-root/bin/busybox
+shfs-root/etc/services
+shfs-root/lib/libproject.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/httpd
+shfs-root/sbin/msmtp
+-------------------- passwd pattern with line numbers----
+
+-------------------- pwd --------------------
+shfs-root/www/wizard.asp
+shfs-root/www/login.asp
+shfs-root/bin/busybox
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/msmtp
+-------------------- pwd pattern with line numbers----
+
+-------------------- dropbear --------------------
+-------------------- dropbear pattern with line numbers----
+
+-------------------- ssl --------------------
+shfs-root/sbin/httpd
+-------------------- ssl pattern with line numbers----
+
+-------------------- private key --------------------
+shfs-root/sbin/msmtp
+-------------------- private key pattern with line numbers----
+
+-------------------- telnet --------------------
+shfs-root/www/lingual_EN.js
+shfs-root/etc/nvram.default
+shfs-root/etc/services
+-------------------- telnet pattern with line numbers----
+
+-------------------- secret --------------------
+shfs-root/www/public.js
+shfs-root/www/public_msg.js
+shfs-root/www/lingual_EN.js
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/httpd
+shfs-root/sbin/rc
+shfs-root/sbin/l2tpd
+-------------------- secret pattern with line numbers----
+
+-------------------- pgp --------------------
+-------------------- pgp pattern with line numbers----
+
+-------------------- gpg --------------------
+-------------------- gpg pattern with line numbers----
+
+-------------------- token --------------------
+shfs-root/bin/busybox
+shfs-root/sbin/pppd
+shfs-root/sbin/noip2
+shfs-root/sbin/iwlist
+-------------------- token pattern with line numbers----
+
+-------------------- api key --------------------
+-------------------- api key pattern with line numbers----
+
+-------------------- oauth --------------------
+-------------------- oauth pattern with line numbers----
+
+-------------------- AKIA --------------------
+-------------------- AKIA pattern with line numbers----
+
+
+***Search for web servers***
+##################################### search for web servers
+##################################### apache
+
+##################################### lighttpd
+
+##################################### alphapd
+
+##################################### httpd
+shfs-root/sbin/httpd
+
+##################################### GoAhead
+
+##################################### nginx
+
+***Search for command injection functions***
+##################################### Command injection functions
+##################################### system
+shfs-root/bin/busybox
+shfs-root/bin/UDPserver
+shfs-root/etc/nvram.default
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libpthread-0.9.28.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/sbin/bpalogin
+shfs-root/sbin/gpio
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/noip2
+shfs-root/sbin/ntpclient
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+shfs-root/share/man/man8/pptp.8
+shfs-root/usr/share/udhcpc/default.script
+shfs-root/www/lingual_EN.js
+shfs-root/www/log_setting.asp
+shfs-root/www/public.js
+shfs-root/www/wizard.asp
+##################################### system function with line numbers
+
+##################################### exec
+shfs-root/bin/busybox
+shfs-root/etc/services
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/ripd
+shfs-root/sbin/zebra
+shfs-root/usr/share/udhcpc/default.script
+##################################### exec function with line numbers
+
+##################################### execl
+shfs-root/bin/busybox
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+##################################### execl function with line numbers
+
+##################################### popen
+shfs-root/lib/libsutil.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/rc
+shfs-root/sbin/timer
+##################################### popen function with line numbers
+
+##################################### execve
+shfs-root/bin/busybox
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+##################################### execve function with line numbers
+
+##################################### ShellExecute
+##################################### ShellExecute function with line numbers
+
+##################################### os.execute
+##################################### os.execute function with line numbers
+
+##################################### os.system
+##################################### os.system function with line numbers
+
+##################################### subprocess.call
+##################################### subprocess.call function with line numbers
+
+##################################### eval
+shfs-root/www/wizard.asp
+##################################### eval function with line numbers
+
+##################################### cmd
+shfs-root/etc/services
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/sbin/iwpriv
+shfs-root/sbin/msmtp
+shfs-root/sbin/zebra
+##################################### cmd function with line numbers
+
+***Search for banned C functions***
+##################################### Banned C functions
+##################################### strcpy
+shfs-root/bin/busybox
+shfs-root/bin/flash
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/iptables/libipt_conntrack.so
+shfs-root/lib/iptables/libipt_icmp.so
+shfs-root/lib/iptables/libipt_LOG.so
+shfs-root/lib/iptables/libipt_urlfilter.so
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libipv6.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/sbin/auth
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/mailosd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/noip2
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### strcat
+shfs-root/bin/busybox
+shfs-root/bin/flash
+shfs-root/bin/UDPserver
+shfs-root/lib/iptables/libipt_conntrack.so
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/lib/mini_upnp.so
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/httpd
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/l2tpd
+shfs-root/sbin/noip2
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### strncat
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/httpd
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/ripd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### sprintf
+shfs-root/bin/flash
+shfs-root/bin/UDPserver
+shfs-root/lib/libipv6.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libm-0.9.28.so
+shfs-root/lib/libnvram.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/lib/pptp.so
+shfs-root/sbin/auth
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/gpio
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwgetid
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/noip2
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/uuidgen
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### vsprintf
+shfs-root/bin/udhcpc
+shfs-root/lib/libproject.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/sbin/bpalogin
+
+##################################### strlen
+shfs-root/bin/flash
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/iptables/libipt_conntrack.so
+shfs-root/lib/iptables/libipt_icmp.so
+shfs-root/lib/iptables/libipt_limit.so
+shfs-root/lib/iptables/libipt_LOG.so
+shfs-root/lib/iptables/libipt_mac.so
+shfs-root/lib/iptables/libipt_REJECT.so
+shfs-root/lib/iptables/libipt_state.so
+shfs-root/lib/iptables/libipt_time.so
+shfs-root/lib/iptables/libipt_urlfilter.so
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libipv6.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libm-0.9.28.so
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/libuClibc-0.9.28.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/lib/pptp.so
+shfs-root/sbin/auth
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwgetid
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/noip2
+shfs-root/sbin/ntpclient
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### memcpy
+shfs-root/bin/busybox
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libpthread-0.9.28.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/lib/pptp.so
+shfs-root/sbin/auth
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/httpd
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/udhcpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### memcmp
+shfs-root/bin/busybox
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/sbin/auth
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/httpd
+shfs-root/sbin/l2tpd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/udhcpd
+shfs-root/sbin/uuidgen
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### memset
+shfs-root/bin/busybox
+shfs-root/bin/flash
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/libcrypt-0.9.28.so
+shfs-root/lib/libipv6.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libpthread-0.9.28.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/lib/pptp.so
+shfs-root/sbin/auth
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/gpio
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/iptables
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/mailosd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/noip2
+shfs-root/sbin/ntpclient
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/uuidgen
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### fopen
+shfs-root/bin/dumpleases
+shfs-root/bin/flash
+shfs-root/bin/udhcpc
+shfs-root/bin/UDPserver
+shfs-root/lib/libipv6.so
+shfs-root/lib/libiw.a
+shfs-root/lib/libiw.so.25
+shfs-root/lib/libnvram.so
+shfs-root/lib/libproject.so
+shfs-root/lib/libsutil.so
+shfs-root/lib/mini_upnp.so
+shfs-root/lib/pppd/2.4.3/rp-pppoe.so
+shfs-root/lib/pptp.so
+shfs-root/sbin/auth
+shfs-root/sbin/bpalogin
+shfs-root/sbin/dnsmasq
+shfs-root/sbin/gpio
+shfs-root/sbin/httpd
+shfs-root/sbin/iapp
+shfs-root/sbin/igmpproxy
+shfs-root/sbin/iptables-restore
+shfs-root/sbin/iptables-save
+shfs-root/sbin/iwconfig
+shfs-root/sbin/iwcontrol
+shfs-root/sbin/iwevent
+shfs-root/sbin/iwlist
+shfs-root/sbin/iwpriv
+shfs-root/sbin/iwspy
+shfs-root/sbin/l2tpd
+shfs-root/sbin/miniupnpd
+shfs-root/sbin/msmtp
+shfs-root/sbin/ntpclient
+shfs-root/sbin/pppd
+shfs-root/sbin/pppd-rtk
+shfs-root/sbin/pptp
+shfs-root/sbin/rc
+shfs-root/sbin/ripd
+shfs-root/sbin/tftpd
+shfs-root/sbin/timer
+shfs-root/sbin/udhcpd
+shfs-root/sbin/wscd
+shfs-root/sbin/zebra
+
+##################################### gets
+shfs-root/etc/syslog.conf
+
+##################################### getwd
+
+##################################### scanf
+
+
+***Search for important binaries***
+##################################### important binaries
+##################################### ssh
+
+##################################### sshd
+
+##################################### scp
+
+##################################### sftp
+
+##################################### tftp
+
+##################################### dropbear
+
+##################################### busybox
+shfs-root/bin/busybox
+
+##################################### telnet
+
+##################################### telnetd
+
+##################################### openssl
+
+##################################### ftpget
+
+##################################### ftpput
+
+
+***Search for webfiles***
+##################################### webfiles
+##################################### *.asp
+
+##################################### *.html
+
+##################################### *.xml
+
+##################################### *.php
+
+##################################### *.js
+
+##################################### *.json
+
+##################################### *.cgi
+
+
+***Search for ip addresses***
+##################################### ip addresses
+0.0.0.0
+10.0.0.0
+10.0.0.5
+11.0.0.0
+1.1.1.1
+127.0.0.1
+192.168.0.100
+192.168.10.1
+192.168.10.101
+192.168.10.199
+192.168.31.0
+192.168.31.1
+203.181.89.241
+211.23.181.189
+255.255.255.0
+255.255.255.255
+
+***Search for urls***
+##################################### urls
+http://192.168.10.1
+http://192.168.10.1:59889<
+http://pajhome.org.uk
+http://' prefix (for example, http:
+http://www.TRENDnet.com
+
+***Search for emails***
+##################################### emails
+chris@netservers.co.uk
+james.cameron@hp.com
+thomas@debian.org
