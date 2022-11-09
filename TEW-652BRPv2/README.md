@@ -9,12 +9,11 @@ FCC ID: [XU8TEW652BRPV3](https://fccid.io/XU8TEW652BRPV3)
 
 Specifications:
 - System-on-a-Chip (SoC): Realtek RTL8197D  
-- Flash memory: 128 Мб (MXIC MX25L12845EMI-10G)  
-- Synchronous DRAM (SDRAM) memory: 64 Мб (EtronTech EM6AB160TSD-5G)  
-- Wi-Fi module: Realtek RTL8192CE (802.11b, 802.11g, draft 802.11n)  
+- Flash memory: Macronix (MCNIX) MX25L3206E  
+- Synchronous DRAM (SDRAM) memory: Elite Semiconductor Memory Technology (ESMT) M12L2561616A   
 
 # 2. Obtaining firmware
-At the moment the firmware is downloaded from the official site. [trendnet.com](https://www.trendnet.com/langen/support/support-detail.asp?prod=150_TEW-652BRP#specifications)  
+At the moment the firmware is downloaded from the [official site](https://www.trendnet.com/langen/support/support-detail.asp?prod=150_TEW-652BRP#specifications)  
 
 # 3. Analyzing firmware
 Now it's time to explore aspects of the file to identify its characteristics.
@@ -115,7 +114,7 @@ Firmwalker uses information in the "/data/” directory for parsing rules. A cus
 ## EMBA - Embedded Analyzer
 [EMBA](https://github.com/e-m-b-a/emba) is designed as a core firmware analysis tool for penetration testers. It supports the full security analysis process, starting with the firmware extraction, static analysis and dynamic analysis via emulation to generating a web-based report for further analysis. Launched with a single command, EMBA automatically discovers potential weak spots and vulnerabilities in the firmware under test, such as insecure binaries, old and outdated software components, potentially vulnerable scripts or hard-coded passwords.
 
-Further results are available in the log directory and can be analyzed on the command line or via the [web-browser](./reports/EMBA/html-report/index.html)
+Further results are available in the log directory and can be analyzed on the command line or via the [web-browser](./reports/EMBA/html-report)
 
 # 6. Emulating firmware
 ### TODO
