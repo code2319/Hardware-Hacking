@@ -118,19 +118,46 @@ Further results are available in the log directory and can be analyzed on the co
 
 # 6. Emulating firmware
 ## Partial emulation (user-mode emulation)
-Emulation of standalone binaries derived from a firmware's extracted filesystem such a `/bin/busybox`
+The easiest method of finding the endianess is using the file tool. Just use file command, against any one of the executable’s inside the extracted file system of the firmware.
 ```bash
 % file ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/bin/busybox
 ELF 32-bit MSB executable, MIPS, MIPS-I version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
 ```
+We can see that file returned quite a lot of information. We can see that the binary busybox is compiled for the device that has a 32 bit MIPS -I version CPU, with MSB (Big) endianess. i.e, this particular device’s architecture is represented as mipseb or just simply mips.  
+
 After the CPU architecture and endianness have been identified, use the appropriate QEMU binary to perform partial emulation (Not for emulating the full firmware, but binaries with the extracted firmware).  
 
-Execute the MIPS binary (or appropriate arch) to emulate using QEMU:
+Now that we’ve identified the processor ISA and Endianess, let’s find the tool required to emulate User-Mode programs.
+
+The tool is called qemu-user-static. In debian based systems, we can install this tool by using sudo apt install qemu-user-static.
+
+Once the installation gets finished, we’ll have quite a few statically linked binaries of QEMU to emulate programs for different CPU types.
 ```bash
-% qemu-mips ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/lib/ld-uClibc.so.0 ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/bin/busybox ls
-Standalone execution is not supported yet
+% ls /usr/bin/qemu-*
 ```
-Looks like we're out of luck... let's try the full system emulation
+
+Now we need to select an appropriate program.
+
+What we need is a static binary called `qemu-<CPU-TYPE>-static`. This is a statically compiled version of QEMU, which we can use to perform user-mode emulation. Since my target ISA is mips, I am looking for a binary named qemu-mips-static.
+
+I am going to copy the binary to the extracted squashfs folder. We need to be root to perform the this action.
+```bash
+% cd squashfs-root
+% cp /usr/bin/qemu-mips-static .
+```
+
+Now, I’m going to chroot into the squashfs folder and execute the ls command INSIDE the squashfs filesystem’s bin folder
+```bash
+% sudo chroot . ./qemu-mips-static bin/ls
+```
+
+Tada! The ls tool is actually compiled for MIPS CPU and we are now executing the program in a x64 CPU!
+
+Now, if we try to run dynamically linked binaries, missing library file errors might pop up. If that’s the case, then we can specify the path to the missing library file using the LD_PRELOAD or LD_LIBRARY_PATH environment variable to qemu-user-static.
+
+Eg: `% sudo chroot . ./qemu-mips-static -E LD_LIBRARY_PATH="/lib/" bin/ls`
+
+qemu-user-static also have some cool builtin features like printing strace (Flag -strace), builtin gdbserver (Flag `-g <PORT-NUMBER>`) etc which makes the debugging easier.
 
 ## Full system emulation
 Emulation of the full firmware and start up configurations leveraging fake NVRAM.  
