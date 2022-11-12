@@ -117,7 +117,42 @@ Firmwalker uses information in the "/data/” directory for parsing rules. A cus
 Further results are available in the log directory and can be analyzed on the command line or via the [web-browser](./reports/EMBA/html-report)
 
 # 6. Emulating firmware
-### TODO
+## Partial emulation (user-mode emulation)
+Emulation of standalone binaries derived from a firmware's extracted filesystem such a `/bin/busybox`
+```bash
+% file ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/bin/busybox
+ELF 32-bit MSB executable, MIPS, MIPS-I version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+```
+After the CPU architecture and endianness have been identified, use the appropriate QEMU binary to perform partial emulation (Not for emulating the full firmware, but binaries with the extracted firmware).  
+
+Execute the MIPS binary (or appropriate arch) to emulate using QEMU:
+```bash
+% qemu-mips ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/lib/ld-uClibc.so.0 ~/_TEW652BRPR1_FW200B0045.bin.extracted/squashfs-root/bin/busybox ls
+Standalone execution is not supported yet
+```
+Looks like we're out of luck... let's try the full system emulation
+
+## Full system emulation
+Emulation of the full firmware and start up configurations leveraging fake NVRAM.  
+Using [firmware analysis toolkit](https://github.com/attify/firmware-analysis-toolkit), simply execute the following command:
+```bash
+% sudo python3 ./fat.py TEW652BRPR1_FW200B0045.bin  --qemu 2.5.0
+```
+
+```
+Starting firmware emulation... use Ctrl-a + x to exit
+...
+BusyBox v1.01 (2011.06.13-09:09+0000) Built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+/ # help
+
+Built-in commands:
+-------------------
+	. : alias bg break cd chdir continue eval exec exit export false
+	fg hash help jobs kill let local pwd read readonly return set
+	shift times trap true type ulimit umask unalias unset wait
+```
 
 # 7. Dynamic analysis
 ### TODO
